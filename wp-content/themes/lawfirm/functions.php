@@ -19,11 +19,11 @@
         );
     }
 
-    if (! function_exists('setup'));
+    if (! function_exists('setup')):
         function setup() {
             register_nav();
             add_theme_support('post-thumbnails');
-            add-image-size('team', 475, 475, array('center', 'center'));
+            add_image_size('team', 475, 475, array('center', 'center'));
         }
     endif;
 
