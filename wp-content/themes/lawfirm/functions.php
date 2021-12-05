@@ -38,3 +38,4 @@
     add_action('after_setup_theme', 'setup');
     add_action('wp_enqueue_scripts', 'scripts_header');
     // add_action('wp_footer', 'scripts_footer');
+?>
